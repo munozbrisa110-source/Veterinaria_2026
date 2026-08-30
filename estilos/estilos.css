@@ -11,10 +11,10 @@
 
 
 /* Márgenes generales */
-html,
-body {
+html {
     margin: 0;
 }
+
 
 /* Fuente */
 @font-face {
@@ -27,6 +27,7 @@ body {
 
 /* Fuente de toda la página */
 body {
+    margin: 0;
     font-family: "Roboto", sans-serif;
 }
 
