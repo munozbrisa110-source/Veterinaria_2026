@@ -1,0 +1,208 @@
+/* ================================
+   ESTILOS GENERALES
+================================ */
+:root {
+    --violeta: #89479c;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Márgenes generales */
+html,
+body {
+    margin: 0;
+}
+
+/* Fuente */
+@font-face {
+    font-family: "Roboto";
+    src: url("./assets/fonts/Roboto-VariableFont.ttf");
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+
+/* Fuente de toda la página */
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+
+main {
+    background: linear-gradient(
+        135deg,
+        #f7f5fa,
+        #eee8f8
+    );
+
+    padding: 50px 8%;
+}
+
+
+/* ================================
+   ESTILOS INICIO
+================================ */
+
+/* ACA VA CSS DE LA PAGINA INICIO */
+
+/* FIN DE ESTILOS INICIO */
+
+
+
+/* ================================
+   ESTILOS INSTITUCIONAL
+================================ */
+/* Título principal */
+.titulo-institucional {
+    text-align: center;
+    color: var(--violeta);
+    font-size: 36px;
+    margin-bottom: 55px;
+}
+
+/* Línea después del título */
+.titulo-institucional::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 4px;
+    background-color: var(--violeta);
+    margin: 12px auto 0;
+    border-radius: 5px;
+}
+
+
+/* sobre nosotros */
+.sobre-nosotros {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+    max-width: 1100px;
+    margin: 0 auto 75px;
+    padding: 20px 0;
+}
+
+
+/* Imagen */
+.imagen-institucional {
+    width: 45%;
+    order: 2;
+}
+
+.imagen-institucional img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+
+/* Texto sobre nosotros */
+.texto-sobre-nosotros {
+    width: 55%;
+    order: 1;
+}
+
+.texto-sobre-nosotros h2 {
+    color: var(--violeta);
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.texto-sobre-nosotros p {
+    color: #444;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+
+/*mision y vision */
+.mision-vision {
+    display: flex;
+    gap: 80px;
+    max-width: 1000px;
+    margin: 0 auto 75px;
+}
+
+
+/* Bloques de misión y visión */
+.bloque-institucional {
+    flex: 1;
+    padding: 10px 30px;
+    border-left: 4px solid var(--violeta);
+}
+
+.bloque-institucional h2 {
+    color: var(--violeta);
+    margin-top: 0;
+}
+
+.bloque-institucional p {
+    color: #555;
+    line-height: 1.7;
+}
+
+
+/*valores*/
+.valores {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.valores > h2 {
+    text-align: center;
+    color: var(--violeta);
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* Contenedor de valores */
+.contenedor-valores {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+/* Tarjetas */
+.card-valor {
+    width: 220px;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 3px 12px rgba(137, 71, 156, 0.10);
+}
+
+
+/* Iconos */
+.icono-valor {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+
+/* Títulos */
+.card-valor h3 {
+    color: var(--violeta);
+    font-size: 19px;
+    margin: 8px 0;
+}
+
+
+/* Texto */
+.card-valor p {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+/* ACA VA CSS DE LA PAGINA CONTACTOS */
+
+/* FIN DE ESTILOS CONTACTOS */
