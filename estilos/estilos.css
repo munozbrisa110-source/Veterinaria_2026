@@ -209,7 +209,7 @@ main {
 .bloque-institucional:hover,
 .card-valor:hover {
     transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(137, 71, 156, 0.15);
+    box-shadow: 0 5px 15px rgba(131, 14, 167, 0.15);
 }
 
 
