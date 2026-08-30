@@ -131,13 +131,8 @@ main {
     flex: 1;
     padding: 10px 30px;
     border-left: 4px solid var(--violeta);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.bloque-institucional:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(137, 71, 156, 0.15);
-}
 
 .bloque-institucional h2 {
     color: var(--violeta);
@@ -203,6 +198,18 @@ main {
     color: #555;
     font-size: 14px;
     line-height: 1.5;
+}
+
+/* Efecto común para bloques y card */
+.bloque-institucional,
+.card-valor {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bloque-institucional:hover,
+.card-valor:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(137, 71, 156, 0.15);
 }
 
 
