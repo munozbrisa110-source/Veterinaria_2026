@@ -5,16 +5,11 @@
     --violeta: #89479c;
 }
 
+/*Selector universal*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-
-/* Márgenes generales */
-html {
-    margin: 0;
 }
 
 
