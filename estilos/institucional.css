@@ -4,7 +4,15 @@
 /* Título principal */
 
 
-
+.pagina-institucional {
+  background-color: #ffffff;
+  background-image: 
+    radial-gradient(circle at 20% 30%, rgba(139, 92, 246, 0.03) 0%, rgba(139, 92, 246, 0.03) 8%, transparent 9%),
+    radial-gradient(circle at 75% 20%, rgba(139, 92, 246, 0.02) 0%, rgba(139, 92, 246, 0.02) 12%, transparent 13%),
+    radial-gradient(circle at 40% 75%, rgba(139, 92, 246, 0.02) 0%, rgba(139, 92, 246, 0.02) 6%, transparent 7%),
+    radial-gradient(circle at 85% 70%, rgba(139, 92, 246, 0.03) 0%, rgba(139, 92, 246, 0.03) 10%, transparent 11%);
+  background-size: 100% 100%;
+}
 
 .titulo-institucional {
     text-align: center;
