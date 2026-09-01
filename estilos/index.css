@@ -32,7 +32,7 @@ main{
 .texto-contenedor h2{
     color: var(--color-fondo-fuerte2);
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: 750;
     line-height: 3.5rem;
 }
 .texto-contenedor h3{
@@ -44,22 +44,24 @@ main{
 
 .texto-contenedor p{
     color: var(--color-texto-oscuro1);
-    font-size: 1.5rem;
-    font-weight: 500;
+    font-size: 1.6rem;
+    font-weight: 540;
 }
 
 .boton-logo {
     display: inline-flex;
     align-items: center;
+    font-size: 20px;
     padding: 1rem;
     background-color: var(--color-fondo-fuerte2);
     color: var(--color-fondo-suave3);
     border-radius: 1rem;
 }
 .icono-logo {
-    width: 25px;
+    width: 20px;
     height: auto;
     object-fit: contain;
+    border-radius: 2rem;
 }
 
 .hero-img img{
@@ -75,17 +77,12 @@ main{
     margin: 0 auto;
 }
 
-
-.servicios > h2{
+.servicios h2{
     text-align: center;
     color: var(--color-fondo-fuerte2);
     font-size: 3rem;
-    gap:1rem;
-    font-size: 2rem;
-    font: 1rem;
+    
 }
-
-
 
 .icon-huella {
     display: flex;
@@ -94,7 +91,6 @@ main{
     gap: 1rem;
 }
 
-
 .icon-huella::before,
 .icon-huella::after {
   content: "";
@@ -102,33 +98,40 @@ main{
   width: 60px; 
   height: 1px;
   background-color: var(--color-fondo-fuerte2);
+  
 }
 .icono-huella {
   width: 80px;
   height: auto;
+  border-radius: 5rem;
+  margin-top: 1rem;
+  padding:1rem;
+  background-color: var(--color-fondo-suave3);
+  box-shadow: 0 1px 1.2rem var(--color-fondo-fuerte2);
 }
 
 .contenedor-sevicios{
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .card{
-    width: 17rem;
-    padding: 1rem;
+    margin-top: 2rem;
+    width: 20rem;
+    padding:1rem;
     background-color: var(--color-fondo-suave3);
     text-align: center;
     border-radius: 1rem;
-    box-shadow: 0 1px 1rem var(--color-fondo-fuerte2);
+    box-shadow: 0 1px 1.2rem var(--color-fondo-fuerte2);
     transition: transform 1s ease;
 }
 
 .card h3{
     margin: 0;
-    font-size: 1rem;
+    font-size: 1.4rem;
     color: var(--color-fondo-suave1);
-    font-weight: 500;
+    font-weight: 600;
     line-height: 2rem;
 }
 
@@ -136,10 +139,9 @@ main{
     margin: 0;
     font-size: 1rem;
     color: var(--color-fondo-fuerte2);
-    font-weight: 400;
+    font-weight: 300;
     line-height: 1.5rem;
 }
-
 
 .card:hover{
     transform: translateY(-10px);
