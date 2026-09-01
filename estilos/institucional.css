@@ -1,9 +1,6 @@
 /* ================================
    ESTILOS GENERALES PARA TODA LA PAGINA (aca pueden modificar)
 ================================ */
-:root {
-    --violeta: #89479c;
-}
 
 /*Selector universal*/
 * {
@@ -12,18 +9,6 @@
     box-sizing: border-box;
 }
 
-
-
-main {
-    background: linear-gradient(
-        135deg,
-        #eee2fa,
-        #f5f3f3
-    );
-
-    padding: 50px 8%;
-}
-/*FIN ESTILOS GENERALES*/
 
 
 /* ================================
