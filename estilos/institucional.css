@@ -3,7 +3,13 @@
 ================================ */
 /* Título principal */
 
-
+.pagina-institucional {
+    background: linear-gradient(
+        135deg,
+        #ffffff,
+        #f7f2fa
+    );
+}
 
 .titulo-institucional {
     text-align: center;
