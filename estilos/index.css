@@ -35,13 +35,14 @@ main{
     font-weight: 750;
     line-height: 3.5rem;
 }
-.texto-contenedor h3{
-    color: var(--color-texto-oscuro2);
-    font-size: 3rem;
-    font-weight: 800;
-    line-height: 1rem;
-}
 
+ /*   .texto-contenedor h3{
+        color: var(--color-texto-oscuro2);
+        font-size: 3rem;
+        font-weight: 800;
+        line-height: 1rem;
+    }
+*/
 .texto-contenedor p{
     color: var(--color-texto-oscuro1);
     font-size: 1.6rem;
@@ -72,16 +73,16 @@ main{
     object-position: center;
 }
 
-.servicios{
-    max-width: 1000px;
+.servicios, .videos{
+    max-width: 1500px;
     margin: 0 auto;
 }
 
-.servicios h2{
+.servicios h2, .videos h2{
     text-align: center;
     color: var(--color-fondo-fuerte2);
-    font-size: 3rem;
-    
+    font-size: 2.2rem;
+    margin-top: 50px;
 }
 
 .icon-huella {
@@ -110,7 +111,7 @@ main{
   box-shadow: 0 1px 1.2rem var(--color-fondo-fuerte2);
 }
 
-.contenedor-sevicios{
+.contenedor-sevicios, .card-video{
     display: flex;
     justify-content: center;
     gap: 3rem;
@@ -127,7 +128,7 @@ main{
     transition: transform 1s ease;
 }
 
-.card h3{
+.card h3, .video h3{
     margin: 0;
     font-size: 1.4rem;
     color: var(--color-fondo-suave1);
@@ -135,7 +136,7 @@ main{
     line-height: 2rem;
 }
 
-.card p{
+.card p, .video p{
     margin: 0;
     font-size: 1rem;
     color: var(--color-fondo-fuerte2);
@@ -145,4 +146,15 @@ main{
 
 .card:hover{
     transform: translateY(-10px);
+}
+
+
+.video{
+    margin-top: 3rem;
+    width: 20rem;
+    padding: 8px;
+    background-color: var(--color-fondo-suave3);
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 1px 1.2rem var(--color-fondo-fuerte2);
 }
