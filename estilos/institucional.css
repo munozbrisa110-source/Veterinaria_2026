@@ -1,56 +1,16 @@
 /* ================================
-   ESTILOS GENERALES PARA TODA LA PAGINA (aca pueden modificar)
-================================ */
-:root {
-    --violeta: #89479c;
-}
-
-/*Selector universal*/
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-/* Fuente */
-@font-face {
-    font-family: "Roboto";
-    src: url("./assets/fonts/Roboto-VariableFont.ttf");
-    font-weight: 100 900;
-    font-style: normal;
-}
-
-/* Fuente de toda la página */
-body {
-    font-family: "Roboto", sans-serif;
-}
-
-main {
-    background: linear-gradient(
-        135deg,
-        #eee2fa,
-        #f5f3f3
-    );
-
-    padding: 50px 8%;
-}
-/*FIN ESTILOS GENERALES*/
-
-
-/* ================================
-   ESTILOS INICIO
-================================ */
-
-/* ACA VA CSS DE LA PAGINA INICIO */
-
-/* FIN DE ESTILOS INICIO */
-
-
-
-/* ================================
    ESTILOS INSTITUCIONAL
 ================================ */
 /* Título principal */
+
+.pagina-institucional {
+    background: linear-gradient(
+        135deg,
+        #ffffff,
+        #c9b3d4
+    );
+}
+
 .titulo-institucional {
     text-align: center;
     color: var(--violeta);
@@ -207,8 +167,3 @@ main {
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(131, 14, 167, 0.15);
 }
-
-
-/* ACA VA CSS DE LA PAGINA CONTACTOS */
-
-/* FIN DE ESTILOS CONTACTOS */
