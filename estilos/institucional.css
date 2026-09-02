@@ -1,36 +1,41 @@
-/* ================================
-   ESTILOS INSTITUCIONAL
-================================ */
-/* Título principal */
+/* ==========================================================================
+   ESTILOS INSTITUCIONAL - Veterinaria La Mary (Unificado con base.css)
+   ========================================================================== */
 
+/* Fondo general de la página institucional */
 .pagina-institucional {
     background: linear-gradient(
         135deg,
-        #ffffff,
-        #c9b3d4
+        var(--color-fondo-suave3),
+        var(--color-fondo-suave2)
     );
+    padding: 60px 20px;
 }
 
+/* Título principal */
 .titulo-institucional {
     text-align: center;
-    color: var(--violeta);
+    font-family: var(--font-titulo);
+    color: var(--color-texto-oscuro1);
     font-size: 36px;
     margin-bottom: 55px;
+    text-transform: uppercase;
 }
 
-/* Línea después del título */
+/* Línea después del título principal */
 .titulo-institucional::after {
     content: "";
     display: block;
     width: 70px;
     height: 4px;
-    background-color: var(--violeta);
+    background-color: var(--color-fondo-suave1);
     margin: 12px auto 0;
     border-radius: 5px;
 }
 
-
-/* sobre nosotros */
+/* ==========================================================================
+   SECCIÓN: SOBRE NOSOTROS
+   ========================================================================== */
 .sobre-nosotros {
     display: flex;
     align-items: center;
@@ -40,130 +45,156 @@
     padding: 20px 0;
 }
 
-
-/* Imagen */
-.imagen-institucional {
-    width: 45%;
-    order: 2;
-}
-
-.imagen-institucional img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 15px;
-}
-
-
-/* Texto sobre nosotros */
+/* Texto sobre nosotros (Izquierda) */
 .texto-sobre-nosotros {
     width: 50%;
     order: 1;
 }
 
 .texto-sobre-nosotros h2 {
-    color: var(--violeta);
+    font-family: var(--font-titulo);
+    color: var(--color-texto-oscuro1);
     font-size: 28px;
     margin-top: 0;
     margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* Huellita decorativa debajo de Sobre Nosotros */
+.texto-sobre-nosotros h2::after {
+    content: " 🐾";
+    display: block;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    color: var(--color-fondo-suave1);
 }
 
 .texto-sobre-nosotros p {
+    font-family: var(--font-texto);
     color: #292929;
-    line-height: 1.5;
-    margin-bottom: 10px;
+    line-height: 1.6;
+    margin-bottom: 15px;
 }
 
+/* Imagen (Derecha con corte asimétrico) */
+.imagen-institucional {
+    width: 45%;
+    order: 2;
+    text-align: right;
+}
 
-/*mision y vision */
+.imagen-institucional img {
+    width: 100%;
+    max-height: 380px;
+    object-fit: cover;
+    /* Curvatura cruzada idéntica al diseño de referencia */
+    border-radius: 60px 0px 60px 0px; 
+    box-shadow: 0 8px 25px rgba(13, 11, 47, 0.15);
+}
+
+/* ==========================================================================
+   SECCIÓN: MISIÓN Y VISIÓN
+   ========================================================================== */
 .mision-vision {
     display: flex;
-    gap: 80px;
+    gap: 50px;
     max-width: 1000px;
     margin: 0 auto 75px;
 }
 
-
 /* Bloques de misión y visión */
 .bloque-institucional {
     flex: 1;
-    padding: 10px 30px;
-    border-left: 4px solid var(--violeta);
+    padding: 25px 30px;
+    background-color: rgba(255, 255, 255, 0.6); /* Transparencia para leer cómodo sobre el degradado */
+    border-left: 5px solid var(--color-fondo-suave1);
+    border-radius: 4px 15px 15px 4px;
 }
 
 .bloque-institucional h2 {
-    color: var(--violeta);
+    font-family: var(--font-titulo);
+    color: var(--color-texto-oscuro1);
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .bloque-institucional p {
-    color: #615f5f;
-    line-height: 1.2;
-    margin-bottom: 10px;
+    font-family: var(--font-texto);
+    color: #555555;
+    line-height: 1.5;
 }
 
 
-/*valores*/
+/* ==========================================================================
+   SECCIÓN: VALORES
+   ========================================================================== */
 .valores {
     max-width: 1000px;
     margin: 0 auto;
+    padding-bottom: 40px;
 }
 
 .valores > h2 {
     text-align: center;
-    color: var(--violeta);
+    font-family: var(--font-titulo);
+    color: var(--color-texto-oscuro1);
     font-size: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
 }
-
 
 /* Contenedor de valores */
 .contenedor-valores {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 25px;
+    flex-wrap: wrap;
 }
-
 
 /* Tarjetas */
 .card-valor {
-    width: 220px;
-    padding: 20px;
-    background-color: white;
+    width: 260px;
+    padding: 30px 20px;
+    background-color: #ffffff;
     text-align: center;
     border-radius: 15px;
-    box-shadow: 0 3px 12px rgba(137, 71, 156, 0.10);
+    box-shadow: 0 4px 15px rgba(13, 11, 47, 0.08);
 }
 
 /* Iconos */
 .icono-valor {
-    font-size: 30px;
-    margin-bottom: 8px;
+    font-size: 34px;
+    margin-bottom: 12px;
 }
 
 /* Títulos */
 .card-valor h3 {
-    color: var(--violeta);
-    font-size: 19px;
+    font-family: var(--font-titulo);
+    color: var(--color-texto-oscuro1);
+    font-size: 20px;
     margin: 8px 0;
 }
 
 /* Texto */
 .card-valor p {
+    font-family: var(--font-texto);
     color: #615f5f;
     font-size: 14px;
     line-height: 1.5;
 }
 
-/* Efecto común para bloques y card */
+/* ==========================================================================
+   EFECTOS HOVER Y ANIMACIONES
+   ========================================================================== */
 .bloque-institucional,
+.card-profesional,
 .card-valor {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .bloque-institucional:hover,
+.card-profesional:hover,
 .card-valor:hover {
     transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(131, 14, 167, 0.15);
+    box-shadow: 0 8px 25px rgba(8, 3, 111, 0.18);
 }
