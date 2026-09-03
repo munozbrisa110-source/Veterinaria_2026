@@ -15,6 +15,8 @@ main{
     min-height: 50px;
     max-width: auto;
     margin-top: 2rem;
+    justify-content:space-between;
+    align-items: center;
 }
 
 .texto-contenedor .hero-img{
@@ -41,7 +43,14 @@ main{
 .texto-contenedor p, .contenedor-cono p{
     color: var(--color-violeta-oscuro1);
     font-size: 1.6rem;
-    font-weight: 540; 
+    font-weight: 440; 
+    margin-block: 1rem;
+}
+
+.texto-mapa p{
+    color: var(--color-violeta-oscuro2);
+    font-size: 16px;
+    font-weight: 300;
     margin-block: 1rem;
 }
 
@@ -161,7 +170,40 @@ main{
     font-size:20px;
 }
 
+.mapa iframe{
+    width: 100%;
+    height: 300px;
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px var(--color-violeta-oscuro3);
+}
 
+.tabla table{
+    width: auto;
+    border-collapse:collapse;
+    background-color: var(--color-violeta-claro1);
+}
+
+.tabla th{
+    background-color: var(--color-violeta-claro3);
+    color: var(--color-violeta-oscuro3);
+    font-weight: 800;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 1.1rem;
+}
+
+tr:hover {background-color: var(--color-violeta-claro2);}
+
+.tabla td{
+    padding: 1rem;
+    color: var(--color-violeta-oscuro2);
+    border-bottom: 1px dashed var(--color-violeta-oscuro3);
+    font-size: 1.3rem;
+}
+
+.texto-mapa{flex: auto;}
+.tabla {flex: auto;}
 
 
 @media (max-width :768px) {
