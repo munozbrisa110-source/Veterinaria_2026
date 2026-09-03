@@ -4,18 +4,18 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
-.hero{
+
+.hero, .contenedor-cono, .contenedor-ubi{
     display: flex;
-    background-color: var(--color-fondo-suave3);
+    background-color: var(--color-violeta-claro1);
     flex-direction:row;
     padding: 3rem;
     gap: 5rem;
     min-height: 50px;
-    max-width: 1800px;
+    max-width: auto;
+    margin-top: 2rem;
 }
-
 
 .texto-contenedor .hero-img{
     flex: 1;
@@ -27,26 +27,22 @@ main{
     justify-content: flex-start;
     align-items: flex-start;
     gap: 2rem;
+    
 }
 
-.texto-contenedor h2{
-    color: var(--color-fondo-fuerte2);
+.texto-contenedor h2, .contenedor-cono h2{
+    color: var(--color-violeta-oscuro3);
     font-size: 3rem;
-    font-weight: 750;
-    line-height: 3.5rem;
+    font-weight: 70;
+    line-height: 1.5rem;
+    margin-top: 1rem;
 }
 
- /*   .texto-contenedor h3{
-        color: var(--color-texto-oscuro2);
-        font-size: 3rem;
-        font-weight: 800;
-        line-height: 1rem;
-    }
-*/
-.texto-contenedor p{
-    color: var(--color-texto-oscuro1);
+.texto-contenedor p, .contenedor-cono p{
+    color: var(--color-violeta-oscuro1);
     font-size: 1.6rem;
-    font-weight: 540;
+    font-weight: 540; 
+    margin-block: 1rem;
 }
 
 .boton-logo {
@@ -54,8 +50,8 @@ main{
     align-items: center;
     font-size: 20px;
     padding: 1rem;
-    background-color: var(--color-fondo-fuerte2);
-    color: var(--color-fondo-suave3);
+    background-color: var(--color-violeta-oscuro3);
+    color: var(--color-violeta-claro1);
     border-radius: 1rem;
 }
 .icono-logo {
@@ -65,27 +61,34 @@ main{
     border-radius: 2rem;
 }
 
-.hero-img img{
+.hero-img img, .img-cone img{
     border-radius: 1rem;
     width: 100%;
     height: 500px;
     object-fit: cover;
     object-position: center;
+    transition:transform 1s ease;
 }
 
-.servicios, .videos{
+.hero-img img:hover,.img-cone img:hover {
+  transform: translateX(30px); 
+}
+
+.servicios, .videos, .ubicacion{
     max-width: 1500px;
     margin: 0 auto;
 }
 
-.servicios h2, .videos h2{
+.servicios h2, .videos h2, .ubicacion h2{
     text-align: center;
-    color: var(--color-fondo-fuerte2);
+    color: var(--color-violeta-oscuro3);
     font-size: 2.2rem;
     margin-top: 50px;
     font-weight: 600;
+    
 }
 
+/*Centrar huellita*/
 .icon-huella {
     display: flex;
     align-items: center;
@@ -93,74 +96,78 @@ main{
     gap: 1rem;
 }
 
+/*Lineas al rededor de la huella*/
 .icon-huella::before,
 .icon-huella::after {
   content: "";
-  display: block;
+  display: flex;
   width: 60px; 
   height: 1px;
-  background-color: var(--color-fondo-fuerte2);
-  
-}
-.icono-huella {
-  width: 80px;
-  height: auto;
-  border-radius: 5rem;
-  margin-top: 1rem;
-  padding:1rem;
-  background-color: var(--color-fondo-suave3);
+  background-color: var(--color-violeta-oscuro3);
 }
 
+/*configuracion de la imagen huellita*/
+.icono-huella {
+  width: 90px;
+  height: auto;
+  border-radius: 5rem;
+}
+
+/*configuracion de los servicios y videos*/
 .contenedor-sevicios, .card-video{
     display: flex;
-    justify-content: center;
+    flex-wrap:wrap;
     gap: 3rem;
 }
 
+ /*configuracion de las tarjetas*/
 .card{
-    margin-top: 2rem;
+    margin-top: 1rem;
     width: 20rem;
     padding:1rem;
-    background-color: var(--color-fondo-suave3);
+    background-color: var(--color-violeta-claro1);
     text-align: center;
     border-radius: 1rem;
-    box-shadow: 0 1px 1.2rem var(--color-fondo-fuerte2);
+    box-shadow: 0 1px 1.2rem var(--color-violeta-oscuro3);
     transition: transform 1s ease;
 }
 
-.card h3, .video h3{
+/*letras de servicios y videos*/
+.card h3, .video h3, .ubicacion h3{
     margin: 0;
     font-size: 1.4rem;
-    color: var(--color-fondo-suave1);
+    color: var(--color-violeta-oscuro2);
     font-weight: 600;
     line-height: 2rem;
+    text-align: center;
 }
-
-.card p, .video p{
-    margin: 0;
-    font-size: 1rem;
-    color: var(--color-fondo-fuerte2);
-    font-weight: 300;
-    line-height: 1.5rem;
-}
-
 .card:hover{
     transform: translateY(-10px);
 }
-
 
 .video{
     margin-top: 3rem;
     width: 20rem;
     padding: 8px;
-    background-color: var(--color-fondo-suave3);
+    background-color: var(--color-violeta-claro1);
     text-align: center;
     border-radius: 1rem;
-    box-shadow: 0 1px 1.2rem var(--color-fondo-fuerte2);
+    box-shadow: 0 1px 1.2rem var(--color-violeta-oscuro3);
 }
 
 .videos h3{
     text-align: center;
-    color: var(--color-fondo-fuerte2);
+    color: var(--color-violeta-oscuro3);
     font-size:20px;
+}
+
+
+
+
+@media (max-width :768px) {
+    .hero{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
 }
