@@ -1,30 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contactos</title>
-    
-
+    <title>La Mary - Contacto</title>
+    <link rel="stylesheet" href="estilos/estilos.css"> 
 </head>
 <body>
     <header>
-        <img src="assets/imagen/imagen08.jpg"/>
+        <div class="marca">
+            <span class="icono-marca">🐾</span>
+            <div class="texto-marca">
+                <h1>La Mary</h1>
+                <h2>Clínica Veterinaria</h2>
+            </div>
+        </div>
+        <nav class="navegacion">
+            <ul>
+                <li><a href="index.html" id="link-inicio">Inicio</a></li>
+                <li><a href="institucional.html" id="link-institucional">Institucional</a></li>
+                <li><a href="contacto.html" class="activo" id="link-contacto">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
-    <p><STRong>contacto</STRong></p>
-    <nav>
-        <table>
-            <thead>
-                <tr>whastapp : 3454056923 
-                    <br> email : veterinarialamary@gob.ar
-                    
 
-                </tr>
-            </thead>
-        </table>
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="pagina-contacto">
+        <section class="contenedor-ubi">
+            <article class="texto-mapa">
+                <h2>Contacto</h2>
+                <p>Comunicate con nuestro equipo médico y administrativo a través de nuestros canales oficiales:</p>
+                
+                <div class="datos-contacto">
+                    <p><strong>📞 WhatsApp:</strong> 3454056923</p>
+                    <p><strong>✉️ Email:</strong> <a href="mailto:veterinarialamary@gob.ar">veterinarialamary@gob.ar</a></p>
+                    <p><strong>📍 Dirección:</strong> Gdor. Gral. Balcarce 327, Concordia, Entre Ríos</p>
+                </div>
+            </article>
 
-    </nav>
+            <!--TABLA DE HORARIOS DE ATENCIÓN-->
+            <article class="tabla">
+                <h2>Horarios de Atención</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Día</th>
+                            <th>Mañana</th>
+                            <th>Tarde</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Lunes a viernes</td>
+                            <td>08:00 a 12:00</td>
+                            <td>16:00 a 20:00</td>
+                        </tr>
+                        <tr>
+                            <td>Sábados</td>
+                            <td>09:00 a 12:00</td>
+                            <td>Cerrado</td>
+                        </tr>
+                        <tr>
+                            <td>Urgencias</td>
+                            <td>24hs</td>
+                            <td>24hs</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-marca">
+            <span>La Mary</span>
+            <p>
+                Gdor. Gral. Balcarce 327, Concordia, Entre Ríos<br>
+                Lunes a sabado. Urgencias 24hs
+            </p>
+        </div>
+        <div class="footer-seccion">
+            <span>Seguinos</span>
+            <a href="#" target="_blank">Instagram</a>
+            <a href="#" target="_blank">Facebook</a> 
+            <a href="#" target="_blank">WhatsApp</a>
+        </div>
+    </footer>
 
-    
 </body>
 </html>

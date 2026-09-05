@@ -5,7 +5,7 @@ main{
     justify-content: center;
     align-items: center;
 }
- /* Contenedor del inicio, de conodernos y ubicacion(contenedores amarillos)*/
+ /* Contenedor del inicio, de conodernos y ubicacion*/
 .hero, .contenedor-cono, .contenedor-ubi{
     display: flex;
     background-color: var(--color-violeta-claro1);
@@ -33,11 +33,11 @@ main{
 }
 
 
-.texto-contenedor h2, .contenedor-cono h2{
+.texto-contenedor h2, .contenedor-cono h2 {
     color: var(--color-violeta-oscuro3);
     font-size: 3.5rem;
-    font-weight: 70;
-    line-height: 1.5rem;
+    font-weight: 700; /*  de 70 a 700 para que se vea en negrita */
+    line-height: 1.2;  /*  1.2 (un valor relativo sin unidad para que sea proporcional) */
     margin-top: 1rem;
 }
 
