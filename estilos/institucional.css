@@ -201,7 +201,7 @@
 
 .instalaciones > h2 {
     text-align: center;
-    font-family: var(--font-titulo);
+    font-family: var(--font-titulo2);
     color: var(--color-texto-oscuro1);
     font-size: 30px;
     margin-bottom: 30px;
@@ -236,7 +236,7 @@
 }
 
 .foto-galeria figcaption {
-    font-family: var(--font-titulo2);
+    font-family: var(--font-titulo);
     color: var(--color-fondo-fuerte2);
     text-align: center;
     padding: 15px;
