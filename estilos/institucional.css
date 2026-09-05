@@ -236,7 +236,7 @@
 }
 
 .foto-galeria figcaption {
-    font-family: var(--font-titulo);
+    font-family: var(--font-titulo2);
     color: var(--color-fondo-fuerte2);
     text-align: center;
     padding: 15px;
