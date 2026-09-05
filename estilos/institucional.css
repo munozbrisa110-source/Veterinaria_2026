@@ -15,7 +15,7 @@
 /* Título principal */
 .titulo-institucional {
     text-align: center;
-    font-family: sans-serif;
+    font-family: var(--font-titulo);
     color: var(--color-violeta-oscuro3);
     font-size: 36px;
     margin-bottom: 55px;
