@@ -197,8 +197,8 @@
 
 .subtitulo-seccion {
     text-align: center;
-    font-family: var(--font-texto);
-    color:  #555555;
+    font-family: var(--font-titulo);
+    color:  var(--color-fondo-fuerte2);
     margin-top: -20px;
     margin-bottom: 30px;
     font-size: 15px;
