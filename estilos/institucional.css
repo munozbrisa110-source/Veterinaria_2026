@@ -102,7 +102,7 @@
     flex: 1;
     padding: 25px 30px;
     background-color: rgba(255, 255, 255, 0.6); /* Transparencia para leer cómodo sobre el degradado */
-    border-left: 5px solid var(--color-fondo-suave1);
+    border-left: 5px solid var(--color-violeta-oscuro3);
     border-radius: 4px 15px 15px 4px;
 }
 
