@@ -200,7 +200,7 @@
     font-family: var(--font-texto);
     color: var(--color-violeta-oscuro1);
     margin-top: -20px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-size: 16px;
 }
 .instalaciones {
@@ -213,7 +213,7 @@
     font-family: var(--font-titulo2);
     color: var(--color-violeta-oscuro3);
     font-size: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     text-transform: uppercase;
 }
 
