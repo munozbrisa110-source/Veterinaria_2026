@@ -12,7 +12,6 @@
     padding: 60px 20px;
 }
 
-
 /* Título principal */
 .titulo-institucional {
     text-align: center;
@@ -177,7 +176,7 @@
     line-height: 1.5;
 }
 
-/* EFECTOS HOVER Y ANIMACIONES */
+/* EFECTOS HOVER Y ANIMACIONES ========== */
 .bloque-institucional,
 .card-profesional,
 .card-valor {
