@@ -118,7 +118,7 @@
 
 .bloque-institucional p {
     font-family: var(--font-texto);
-    color: var(--color-violeta-oscuro1);
+    color:  #555555;
     line-height: 1.5;
 }
 
