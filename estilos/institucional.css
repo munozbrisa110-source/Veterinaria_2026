@@ -227,7 +227,7 @@
 .foto-galeria {
     margin: 0;
     width: 320px;
-    background-color: #ffffff;
+    background-color: var(--color-violeta-claro1);
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 4px 15px rgba(13, 11, 47, 0.08);
