@@ -16,7 +16,7 @@
 .titulo-institucional {
     text-align: center;
     font-family: var(--font-titulo);
-    color: var(--color-texto-oscuro1);
+    color: var(--color-fondo-fuerte2);
     font-size: 36px;
     margin-bottom: 55px;
     text-transform: uppercase;
@@ -33,7 +33,9 @@
     border-radius: 5px;
 }
 
-/* SECCIÓN: SOBRE NOSOTROS */
+/* ==========================================================================
+   SECCIÓN: SOBRE NOSOTROS
+   ========================================================================== */
 .sobre-nosotros {
     display: flex;
     align-items: center;
@@ -51,7 +53,7 @@
 
 .texto-sobre-nosotros h2 {
     font-family: var(--font-titulo);
-    color: var(--color-texto-oscuro1);
+    color: var(--color-fondo-fuerte2);
     font-size: 28px;
     margin-top: 0;
     margin-bottom: 20px;
@@ -85,11 +87,14 @@
     width: 100%;
     max-height: 380px;
     object-fit: cover;
+    /* Curvatura cruzada idéntica al diseño de referencia */
     border-radius: 60px 0px 60px 0px; 
     box-shadow: 0 8px 25px rgba(13, 11, 47, 0.15);
 }
 
-/* SECCIÓN: MISIÓN Y VISIÓN */
+/* ==========================================================================
+   SECCIÓN: MISIÓN Y VISIÓN
+   ========================================================================== */
 .mision-vision {
     display: flex;
     gap: 50px;
@@ -120,7 +125,9 @@
 }
 
 
-/* SECCIÓN: VALORES */
+/* ==========================================================================
+   SECCIÓN: VALORES
+   ========================================================================== */
 .valores {
     max-width: 1000px;
     margin: 0 auto;
@@ -176,7 +183,9 @@
     line-height: 1.5;
 }
 
-/* EFECTOS HOVER Y ANIMACIONES ========== */
+/* ==========================================================================
+   EFECTOS HOVER Y ANIMACIONES
+   ========================================================================== */
 .bloque-institucional,
 .card-profesional,
 .card-valor {
