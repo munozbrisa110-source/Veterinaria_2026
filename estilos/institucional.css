@@ -192,3 +192,54 @@
     transform: translateY(-5px);
     box-shadow: 0 8px 25px rgba(8, 3, 111, 0.18);
 }
+
+/*Instalaciones(galería)*/
+.instalaciones {
+    max-width: 1100px;
+    margin: 0 auto 75px;
+}
+
+.instalaciones > h2 {
+    text-align: center;
+    font-family: var(--font-titulo);
+    color: var(--color-texto-oscuro1);
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.galeria-instalaciones {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.foto-galeria {
+    margin: 0;
+    width: 320px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(13, 11, 47, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.foto-galeria:hover {
+    transform: scale(1.03);
+}
+
+.foto-galeria img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.foto-galeria figcaption {
+    font-family: var(--font-titulo);
+    color: var(--color-fondo-fuerte2);
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
