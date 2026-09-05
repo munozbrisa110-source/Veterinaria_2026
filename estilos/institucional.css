@@ -15,7 +15,7 @@
 /* Título principal */
 .titulo-institucional {
     text-align: center;
-    font-family: serif; ;
+    font-family: sans-serif;
     color: var(--color-violeta-oscuro3);
     font-size: 36px;
     margin-bottom: 55px;
@@ -110,8 +110,8 @@
 
 
 .bloque-institucional h2 {
-    font-family: var(--font-titulo);
-    color: var(--color-violeta-oscuro1);
+    font-family: sans-serif;
+    color: var(--color-violeta-oscuro3);
     margin-top: 0;
     margin-bottom: 12px;
 }
@@ -132,8 +132,8 @@
 
 .valores > h2 {
     text-align: center;
-    font-family: var(--font-titulo);
-    color: var(--color-violeta-oscuro1);
+    font-family: sans-serif;
+    color: var(--color-violeta-oscuro3);
     font-size: 30px;
     margin-bottom: 40px;
     text-transform: uppercase;
@@ -165,8 +165,8 @@
 
 /* Títulos */
 .card-valor h3 {
-    font-family: var(--font-titulo);
-    color: var(--color-violeta-oscuro1);
+    font-family: sans-serif;
+    color: var(--color-violeta-oscuro3);
     font-size: 20px;
     margin: 8px 0;
 }
