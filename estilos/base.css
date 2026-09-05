@@ -13,7 +13,7 @@
 
 /*Título institucional*/
 @font-face { 
-    font-family: "Roboto2"; 
+    font-family: "Montserrat"; 
     src: url(../assets/fonts/montserrat-VariableFont_wght.ttf); 
     font-weight: 200 900; 
     font-style: normal; 
@@ -22,6 +22,8 @@
 :root {
     --font-titulo: "Roboto1", sans-serif;
     --font-texto: "Roboto2", sans-serif;
+    --font-titulo: "Montserrat", sans-serif;
+
 
     --color-violeta-oscuro1: #0d0b2f;
     --color-violeta-oscuro2: #1a165c;
