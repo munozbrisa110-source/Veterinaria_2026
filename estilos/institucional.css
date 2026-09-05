@@ -4,9 +4,14 @@
 
 /* Fondo general de la página institucional */
 .pagina-institucional {
-    background: linear-gradient(to bottom, var(--color-fondo-suave1), var(--color-fondo-suave2));
+    background: linear-gradient(
+        135deg,
+        var(--color-fondo-suave3),
+        var(--color-fondo-suave2)
+    );
     padding: 60px 20px;
 }
+
 
 /* Título principal */
 .titulo-institucional {
