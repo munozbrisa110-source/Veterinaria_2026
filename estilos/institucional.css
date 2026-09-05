@@ -132,7 +132,7 @@
 
 .valores > h2 {
     text-align: center;
-    font-family: sans-serif;
+    font-family: var(--font-titulo2);
     color: var(--color-violeta-oscuro3);
     font-size: 30px;
     margin-bottom: 40px;
@@ -202,9 +202,9 @@
 .instalaciones > h2 {
     text-align: center;
     font-family: var(--font-titulo2);
-    color: var(--color-texto-oscuro1);
+    color: var(--color-violeta-oscuro3);
     font-size: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     text-transform: uppercase;
 }
 
