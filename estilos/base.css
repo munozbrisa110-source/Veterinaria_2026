@@ -10,8 +10,7 @@
     font-weight: 200 900; 
     font-style: normal; 
 }
-
-/*Título institucional*/
+/*Títulos institucional*/
 @font-face { 
     font-family: "Montserrat"; 
     src: url(../assets/fonts/montserrat-VariableFont_wght.ttf); 
