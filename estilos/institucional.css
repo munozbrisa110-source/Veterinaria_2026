@@ -193,7 +193,16 @@
     box-shadow: 0 8px 25px rgba(8, 3, 111, 0.18);
 }
 
-/*Instalaciones(galería)*/
+/*Instalaciones(subtitulo y galería)*/
+
+.subtitulo-seccion {
+    text-align: center;
+    font-family: var(--font-texto);
+    color: var(--color-violeta-oscuro1);
+    margin-top: -20px;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
 .instalaciones {
     max-width: 1100px;
     margin: 0 auto 75px;
