@@ -140,7 +140,7 @@ footer {
     color: var(--color-violeta-claro2); 
 }
 
-/* Bloque de redes a la derecha */
+
 .footer-seccion {
     display: flex;
     flex-direction: column;
@@ -166,8 +166,71 @@ footer {
     display: inline-block;
 }
 
-/* Efecto al pasar el mouse por las redes sociales */
 .footer-seccion a:hover {
     color: var(--color-violeta-claro3); 
     transform: translateX(5px); 
+}
+
+.pagina-contacto {
+    background-color: var(--color-violeta-claro1);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.titulo-seccion {
+    color: var(--color-violeta-oscuro3);
+    margin-bottom: 40px;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+
+.contenedor-viñetas {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.viñeta-card {
+    background-color: #ffffff;
+    padding: 30px;
+    width: 280px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(13, 11, 47, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid var(--color-violeta-claro2);
+}
+
+.viñeta-card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 15px 35px rgba(47, 15, 112, 0.2);
+}
+
+.icono-circular {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.viñeta-card h3 {
+    color: var(--color-violeta-oscuro2);
+    margin-bottom: 10px;
+}
+
+.viñeta-card.alerta {
+    border: 2px solid var(--color-violeta-oscuro3);
+    background-color: #fffafb;
+}
+
+.enlaces-redes {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.enlaces-redes a {
+    color: var(--color-violeta-oscuro3);
+    font-weight: bold;
+    text-decoration: underline;
 }
