@@ -260,7 +260,7 @@
 
 .testimonios > h2 {
     text-align: center;
-    font-family: var(--font-texto);
+    font-family: var(--font-titulo2);
     color: var(--color-violeta-oscuro3);
     font-size: 30px;
     margin-bottom: 40px;
