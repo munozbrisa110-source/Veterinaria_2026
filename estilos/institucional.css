@@ -319,10 +319,11 @@
 
 .preguntas-frecuentes > h2 {
     text-align: center;
-    font-family: var(--font-titulo);
-    color: var(--color-texto-oscuro1);
+    font-family: var(--font-titulo2);
+    color: var(--color-violeta-oscuro3);
     font-size: 30px;
     margin-bottom: 40px;
+    margin-top: 20px;
     text-transform: uppercase;
 }
 
